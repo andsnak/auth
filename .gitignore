@@ -1,0 +1,6 @@
+/dist
+/gateway/dist
+/**/node_modules/
+/gateway/package-lock.json
+/gateway/ssl
+/client/package-lock.json
