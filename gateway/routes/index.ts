@@ -1,8 +1,10 @@
 import { Router } from "express";
-import User from "./user";
+// import { verifyToken } from "../middlewares";
+import AuthRoute from "./auth-route";
 
 const rootRouter = Router();
 
-rootRouter.use("/user", User);
+// rootRouter.use([verifyToken]);
+rootRouter.use("/auth", AuthRoute);
 
 export default rootRouter;
